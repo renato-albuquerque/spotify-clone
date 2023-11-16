@@ -32,6 +32,11 @@
         cursor: pointer;
     }
 
+    .menuDesktopItem:hover {
+        color: var(--default-green);
+        transition: all .3s;
+    }
+
     .menuDesktopItem:nth-child(3) {
         border-right: 1px solid white;
         padding-right: 2rem;
@@ -80,5 +85,60 @@
     .footerBottomItems {
         display: flex;
         gap: 2rem;
+    }
+}
+
+@media(min-width: 1024px) {
+    /* header */
+    .logo {
+        width: 12rem;
+    }
+
+    /* main */
+    .titleMain {
+        font-size: 5rem;
+    }
+    
+    .subtitleMain {
+        font-size: 2rem;
+    }
+
+    .btnMain {
+        font-size: 2rem;
+        width: 40rem;
+    }
+
+    /* footer-1 */
+    .logo-footer {
+        width: 10rem;
+    }
+
+    .footer-menu {
+        font-size: 1.5rem;
+    }
+    
+    .footer-menu-item {
+        font-size: 1.5rem;
+    }
+
+    .fa-brands {
+        font-size: 2rem;
+    }
+
+    /* footer-2 */
+    .textFooterBrazil {
+        font-size: 1.5rem;
+    }
+
+    .textFooter-2 {
+        font-size: 1.5rem;
+    }
+
+    .textFooterCopyright {
+        font-size: 1.5rem;
+    }
+    
+    .brazilFlag {
+        width: 3rem;
     }
 }
