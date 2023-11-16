@@ -12,7 +12,7 @@
 
     --default-green: #1db954;
 	--light-green: #1ed760;
-    --footer-gray: #282323;
+    --footer-gray: #919496;
     --bg-header: rgba(0, 0, 0, 0.6);
 }
 
@@ -78,7 +78,7 @@ body {
 
 .btnMain {
     color: white;
-    background-color: var(--light-green);
+    background-color: var(--default-green);
     padding: 1rem 3rem;
     border-radius: 5rem;
     text-transform: uppercase;
@@ -86,6 +86,12 @@ body {
     font-weight: bold;
     width: 20rem;
     margin: 0 auto;
+    cursor: pointer;
+}
+
+.btnMain:hover {
+    background-color: var(--light-green);
+    transition: all .3s ease;
 }
 
 /* footer-1 */
