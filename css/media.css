@@ -9,7 +9,7 @@
 
 @media(min-width: 768px) {
     /* header */
-    .fa-bars {
+    .fa-bars, .fa-solid {
         display: none;
     }
 
@@ -38,5 +38,18 @@
     }
 
     /* main */
+    .titleMain {
+        font-size: 4rem;
+    }
+    
+    .subtitleMain {
+        font-size: 1.5rem;
+    }
+
+    .btnMain {
+        font-size: 1.5rem;
+        width: 30rem;
+    }
+
     
 }

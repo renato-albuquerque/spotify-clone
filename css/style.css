@@ -49,9 +49,13 @@ body {
     background-image: url("/assets/bg-spotify.webp");
     background-size: cover;
     background-position: center;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color;
+    
     padding: 23rem 2rem;
     text-align: center;
-    
+
     display: flex;
     flex-direction: column;
     gap: 1rem;
