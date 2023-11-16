@@ -76,7 +76,7 @@ body {
     margin: 0 auto;
 }
 
-.footer-1 {
+.footer-1, .footer-2 {
     background-color: black;
     padding: 1rem;
 }
@@ -123,9 +123,38 @@ body {
     background-color: var(--footer-gray);
     padding: 1rem;
     border-radius: 50%;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .fa-brands:hover {
     color: var(--default-green);
+}
+
+.wrapBrazilFlag {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.textFooterBrazil {
+    color: var(--footer-gray);
+    font-size: 1rem;
+}
+
+.textFooter-2 {
+    color: var(--footer-gray);
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+.brazilFlag {
+    width: 2.5rem;
+}
+
+.wrapFooterSecondPart {
+    display: flex;
+    justify-content: space-between;
 }
