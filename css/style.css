@@ -12,6 +12,7 @@
 
     --default-green: #1db954;
 	--light-green: #1ed760;
+    --footer-gray: #282323;
     --bg-header: rgba(0, 0, 0, 0.6);
 }
 
@@ -65,7 +66,7 @@ body {
 
 .btnMain {
     color: white;
-    background-color: #1ed760;
+    background-color: var(--light-green);
     padding: 1rem 3rem;
     border-radius: 5rem;
     text-transform: uppercase;
@@ -73,4 +74,58 @@ body {
     font-weight: bold;
     width: 20rem;
     margin: 0 auto;
+}
+
+.footer-1 {
+    background-color: black;
+    padding: 1rem;
+}
+
+.logo-footer {
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+
+.wrapFooterFirstPart {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.company, .communities, .useful-links {
+    line-height: 3rem;
+}
+
+.footer-menu {
+    color: var(--footer-gray);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.footer-menu-item {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer-menu-item:hover {
+    color: var(--default-green);
+    transition: all .3s;
+}
+
+.social-media {
+    display: flex;
+    gap: 2rem;
+}
+
+.fa-brands {
+    color: white;
+    background-color: var(--footer-gray);
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: var(--default-green);
 }
