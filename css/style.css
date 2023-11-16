@@ -32,6 +32,10 @@ body {
     align-items: center;
     background-color: var(--bg-header);
     padding: 2rem 0;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logo {
