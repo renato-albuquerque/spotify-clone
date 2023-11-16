@@ -19,9 +19,9 @@
 body {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
-    background-color: gray;
 }
 
+/* header */
 .hide {
     display: none;
 }
@@ -45,6 +45,7 @@ body {
     cursor: pointer;
 }
 
+/* main */
 .main {
     background-image: url("/assets/bg-spotify.webp");
     background-size: cover;
@@ -83,9 +84,10 @@ body {
     margin: 0 auto;
 }
 
-.footer-1, .footer-2 {
+/* footer-1 */
+.footer-1 {
     background-color: black;
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 .logo-footer {
@@ -138,6 +140,12 @@ body {
 
 .fa-brands:hover {
     color: var(--default-green);
+}
+
+/* footer-2 */
+.footer-2 {
+    background-color: black;
+    padding: 0 1rem 2rem;
 }
 
 .wrapBrazilFlag {

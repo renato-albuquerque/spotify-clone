@@ -51,5 +51,34 @@
         width: 30rem;
     }
 
-    
+    /* footer-1 */
+    .footer-1 {
+        display: flex;
+        align-items: first baseline;
+        justify-content: space-between;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-bottom: 0;
+    }
+
+    .footerLargerScreens {
+        display: flex;
+        align-items: first baseline;
+        gap: 4rem;
+    }
+
+    .wrapFooterFirstPart {
+        gap: 4rem;
+    }
+
+    /* footer-2 */
+    .footer-2 {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .footerBottomItems {
+        display: flex;
+        gap: 2rem;
+    }
 }
