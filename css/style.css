@@ -35,18 +35,19 @@ body {
 }
 
 .logo {
-    width: 20%;
+    width: 10rem;
 }
 
 .fa-bars {
     color: white;
+    font-size: 2.5rem;
 }
 
 .main {
     background-image: url("/assets/bg-spotify.webp");
     background-size: cover;
     background-position: center;
-    padding: 10rem 2rem;
+    padding: 23rem 2rem;
     text-align: center;
     
     display: flex;
@@ -84,6 +85,7 @@ body {
 .logo-footer {
     width: 7rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .wrapFooterFirstPart {
@@ -115,6 +117,7 @@ body {
 
 .social-media {
     display: flex;
+    justify-content: right;
     gap: 2rem;
 }
 
@@ -137,6 +140,7 @@ body {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .textFooterBrazil {
@@ -144,7 +148,24 @@ body {
     font-size: 1rem;
 }
 
+.textFooterBrazil:hover {
+    color: var(--default-green);
+    transition: all .3s;
+}
+
 .textFooter-2 {
+    color: var(--footer-gray);
+    font-size: 1rem;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+.textFooter-2:hover {
+    color: var(--default-green);
+    transition: all .3s;
+}
+
+.textFooterCopyright {
     color: var(--footer-gray);
     font-size: 1rem;
     line-height: 3rem;
