@@ -144,3 +144,37 @@
         width: 3rem;
     }
 }
+
+@media(min-width: 1300px) {
+    .header {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+    
+    .footer-1 {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
+    .footer-2 {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+}
+
+@media(min-width: 1440px) {
+    .header {
+        padding-left: 24rem;
+        padding-right: 24rem;
+    }
+    
+    .footer-1 {
+        padding-left: 24rem;
+        padding-right: 24rem;
+    }
+
+    .footer-2 {
+        padding-left: 24rem;
+        padding-right: 24rem;
+    }
+}
