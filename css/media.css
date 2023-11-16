@@ -1,0 +1,42 @@
+:root {
+    font-size: 62.5%;
+
+    --default-green: #1db954;
+	--light-green: #1ed760;
+    --footer-gray: #282323;
+    --bg-header: rgba(0, 0, 0, 0.6);
+}
+
+@media(min-width: 768px) {
+    /* header */
+    .fa-bars {
+        display: none;
+    }
+
+    .header {
+        justify-content: space-evenly;
+    }
+
+    .navMenuDesktop {
+        display: flex;
+    }
+
+    .menuDesktop {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .menuDesktopItem {
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .menuDesktopItem:nth-child(3) {
+        border-right: 1px solid white;
+        padding-right: 2rem;
+    }
+
+    /* main */
+    
+}

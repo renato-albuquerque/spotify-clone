@@ -36,11 +36,13 @@ body {
 
 .logo {
     width: 10rem;
+    cursor: pointer;
 }
 
 .fa-bars {
     color: white;
     font-size: 2.5rem;
+    cursor: pointer;
 }
 
 .main {
@@ -173,6 +175,7 @@ body {
 
 .brazilFlag {
     width: 2.5rem;
+    border-radius: 0.5rem;
 }
 
 .wrapFooterSecondPart {
