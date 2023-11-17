@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot]()
-![screenshot]()
+![screenshot](assets/screencapture-spotify-webplayerclone-vercel-app-desktop.png)
+![screenshot](assets/screencapture-spotify-webplayerclone-vercel-app-mobile.png)
 
 ### Links
 
@@ -40,7 +40,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- JavaScript
 - Mobile-first workflow
 
 ## Author
