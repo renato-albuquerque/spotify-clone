@@ -58,11 +58,13 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
 	background-blend-mode: color;
     
-    padding: 24rem 2rem;
+    height: 100vh;
+    padding: 0 2rem;
     text-align: center;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
 }
 
