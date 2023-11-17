@@ -3,6 +3,7 @@
 Responsive project, mobile first, developed in HTML and CSS.
 Challenge proposed by "Imã Tech" and "MXM Sistemas", SharpCoders2 Program.
 Developed in November, 2023.
+Support by [Ralf Lima](https://ralflima.com/) and [Felipe Rocha](https://beacons.ai/dicasparadevs).
 
 ## Table of contents
 
