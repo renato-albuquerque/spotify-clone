@@ -1,8 +1,8 @@
 # Spotify Clone | Music for Everyone
 
 Responsive project, mobile first, developed in HTML and CSS.
-Challenge proposed by "Imã Tech" and "MXM Sistemas", SharpCoders2 Program.
-Developed in November, 2023.
+Challenge proposed by "Imã Tech" and "MXM Sistemas", SharpCoders2 Program. <br>
+Developed in November, 2023. <br>
 Support by [Ralf Lima](https://ralflima.com/) and [Felipe Rocha](https://beacons.ai/dicasparadevs).
 
 ## Table of contents
