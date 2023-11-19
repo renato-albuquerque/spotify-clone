@@ -43,7 +43,7 @@ body {
     cursor: pointer;
 }
 
-.fa-bars {
+.fa-bars, .fa-x {
     color: white;
     font-size: 2.5rem;
     cursor: 
