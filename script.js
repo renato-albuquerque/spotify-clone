@@ -13,3 +13,12 @@ menuHamburger.addEventListener("click", () => {
         menuHamburger.classList.toggle("fa-x");
     } 
 })
+
+window.addEventListener("resize", () => {
+    let screenWidth = window.innerWidth;
+
+    if(screenWidth >= 768) {
+        navMenuHamburger.classList.add("hide");
+        window.location.reload();
+    }
+})
