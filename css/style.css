@@ -52,6 +52,8 @@ body {
 
 .navMenuHamburger {
     position: relative;
+    animation: growDown 600ms ease-in-out forwards;
+    transform-origin: top center;
 }
 
 .menuHamburger {
@@ -66,6 +68,19 @@ body {
     color: white;
     padding: 1rem 0;
     line-height: 2.5rem;
+}
+
+/* source: https://codinhood.com/micro/10-dropdown-menu-animations-css-transform/ */
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
 }
 
 /* main */
