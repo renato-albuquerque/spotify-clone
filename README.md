@@ -1,4 +1,4 @@
-# Spotify Clone | Music for Everyone
+# Spotify Clone | SharpCoders2 Program
 
 Responsive project, mobile first, developed in HTML and CSS.
 Challenge proposed by "Imã Tech" and "MXM Sistemas", SharpCoders2 Program. <br>
